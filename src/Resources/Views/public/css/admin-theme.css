@@ -1,0 +1,35 @@
+
+.navbar-default{ background:#222d32; }
+.navbar.navbar-default{ background:#2d2d2d;}
+
+.sidebar ul li{ border-color:rgba(0,0,0,0.5);}
+
+
+.navbar-default .navbar-brand{color:#FFF; background:#141414;}
+.navbar-default .navbar-brand:hover{ color:#FFF; background:#2d2d2d;}
+
+.nav li a{ color:#b8c7ce;}
+.nav li a:hover,
+.nav li a:focus,
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  text-decoration: none;
+  background-color: #192125; color:#FFF;
+ }
+
+.right-nav .nav li { border-color:rgba(0,0,0,0.5);}
+.right-nav .nav li a{ color:#192125;}
+.right-nav .nav li a:hover{ color:#FFF;}
+
+.navbar-top-links a:hover{ color:#FFF;}
+.sidebar ul li.active > a{ background:#192125;}
+
+.navbar-top-links .dropdown-menu{ background:#192125; color:#FFF;}
+.navbar-top-links .dropdown-menu a:hover{ background:#000;}
+.navbar-top-links .dropdown-menu .divider{ background-color:#2e383d}
+.sidebar-toggle-left:hover, .sidebar-toggle-left:focus{ background:#141414; color:#FFF;}
+
+@media (min-width: 768px){
+.ad-active-left-sidebar .sidebar-nav > .nav > li > a > .htext{background:#192125;}
+.ad-active-left-sidebar .nav-second-level, .ad-active-left-sidebar .navbar-default.sidebar .dropdown-menu{background:#192125;}
+.ad-active-left-sidebar .navbar-default.sidebar li:hover > .nav-second-level, .ad-active-left-sidebar .navbar-default.sidebar li:hover > .dropdown-menu{background:#192125;}
+}

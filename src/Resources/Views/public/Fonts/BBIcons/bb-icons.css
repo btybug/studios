@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'BBIcons';
+    src: url('fonts/BBIcons.eot?shn2x3');
+    src: url('fonts/BBIcons.eot?shn2x3#iefix') format('embedded-opentype'),
+    url('fonts/BBIcons.ttf?shn2x3') format('truetype'),
+    url('fonts/BBIcons.woff?shn2x3') format('woff'),
+    url('fonts/BBIcons.svg?shn2x3#BBIcons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bb {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'BBIcons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: inline-block;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bb-batter-empty:before {
+    content: "\e916";
+}
+
+.bb-batter-low:before {
+    content: "\e91f";
+}
+
+.bb-bolt:before {
+    content: "\e920";
+}
+
+.bb-book:before {
+    content: "\e921";
+}
+
+.bb-chat:before {
+    content: "\e922";
+}
+
+.bb-clock:before {
+    content: "\e923";
+}
+
+.bb-dollar:before {
+    content: "\e927";
+}
+
+.bb-gbp:before {
+    content: "\e92f";
+}
+
+.bb-fire:before {
+    content: "\e930";
+}
+
+.bb-folder:before {
+    content: "\e931";
+}
+
+.bb-messsage:before {
+    content: "\e938";
+}
+
+.bb-mobile:before {
+    content: "\e939";
+}
+
+.bb-music:before {
+    content: "\e93a";
+}
+
+.bb-no-smoking:before {
+    content: "\e93b";
+}
+
+.bb-power:before {
+    content: "\e93c";
+}
+
+.bb-refresh:before {
+    content: "\e945";
+}
+
+.bb-repair:before {
+    content: "\e946";
+}
+
+.bb-money:before {
+    content: "\e947";
+}
+
+.bb-shopping-cart:before {
+    content: "\e95f";
+}
+
+.bb-shopping:before {
+    content: "\e960";
+}
+
+.bb-sound-off:before {
+    content: "\e961";
+}
+
+.bb-telephone:before {
+    content: "\e962";
+}
+
+.bb-thumb-up:before {
+    content: "\e963";
+}
+
+.bb-stop:before {
+    content: "\e96e";
+}
+
+.bb-yes:before {
+    content: "\e96f";
+}
+
