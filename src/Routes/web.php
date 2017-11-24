@@ -11,24 +11,23 @@
 |
 */
 
-    Route::get('/test',"TestController@getIndex");
-    Route::post('/test',"TestController@postCreatePage");
+Route::get('/test', "TestController@getIndex");
+Route::post('/test', "TestController@postCreatePage");
 
 
+Route::get('/', "StudioController@getIndex");
+Route::get('/create', "StudioController@getIndex");
+Route::any('/create/classes/{studio?}', "StudioController@getStudioClasses");
+Route::post('/save-class', "StudioController@postSaveClass");
+Route::post('/edit-class', "StudioController@postEditClass");
 
-    Route::get('/',"StudioController@getIndex");
-    Route::get('/create',"StudioController@getIndex");
-    Route::any('/create/classes/{studio?}',"StudioController@getStudioClasses");
-    Route::post('/save-class',"StudioController@postSaveClass");
-    Route::post('/edit-class',"StudioController@postEditClass");
-
-    Route::any('/{group}/{studio}',"StudioController@renderStudio");
+Route::any('/{group}/{studio}', "StudioController@renderStudio");
 Route::group([
     'prefix' => 'studios',
 ], function () {
 //    Route::get('/',"StudioController@getIndex");
-    Route::get('/basic-classes',"StudioController@getBasicClasses");
-    Route::get('/element-classes',"StudioController@getElementsClasses");
-    Route::get('/component-classes',"StudioController@getComponentClasses");
+    Route::get('/basic-classes', "StudioController@getBasicClasses");
+    Route::get('/element-classes', "StudioController@getElementsClasses");
+    Route::get('/component-classes', "StudioController@getComponentClasses");
 });
 
