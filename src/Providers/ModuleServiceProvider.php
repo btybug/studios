@@ -44,7 +44,7 @@ class ModuleServiceProvider extends ServiceProvider
                 ]
             ]]);
 
-        \BtyBugPlugins\Cms\Models\Routes::registerPages('sahak.avatar/studios');
+//        \BtyBugPlugins\Cms\Models\Routes::registerPages('sahak.avatar/studios');
 
     }
 
