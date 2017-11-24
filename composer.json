@@ -6,7 +6,7 @@
       "email": "hakobyan.sahak88@gmail.com"
     }
   ],
-  "type": "module",
+  "type": "plugin",
   "route": "framework",
   "require": {},
   "autoload": {
