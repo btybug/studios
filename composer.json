@@ -7,7 +7,7 @@
     }
   ],
   "type": "plugin",
-  "route": "framework",
+  "route": "studios",
   "require": {},
   "autoload": {
     "psr-4": {
